@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aplikacja pogodowa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="city_edit_txt_hint">Wpisz nazwę miejscowości</string>
+    <string name="loading_data">Ładowanie danych</string>
+    <string name="metric">Metryczny [°C,m/s]</string>
+    <string name="imperial">Imperialny [°F,m/s]</string>
+    <string name="standard">Standardowy [K,mph]</string>
+    <string name="elder_mode">Tryb dla osób starszych</string>
+    <string name="unit">Jednostka miary</string>
+    <string name="settings">Ustawienia</string>
+    <string name="feels_like">Temp. odczuwalna</string>
+    <string name="wind_speed">Prędkość wiatru</string>
+    <string name="cloudiness">Zachmurzenie</string>
+    <string name="humidity">Wilgotność</string>
+</resources>
