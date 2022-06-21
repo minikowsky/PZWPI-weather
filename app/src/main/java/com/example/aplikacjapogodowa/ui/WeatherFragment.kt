@@ -181,12 +181,11 @@ class WeatherFragment : Fragment() {
         inflater.inflate(R.menu.menu_weather,menu)
         super.onCreateOptionsMenu(menu, inflater)
     }
-/*
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.item_action_settings) {
             view?.findNavController()?.navigate(R.id.action_weatherFragment_to_settingsFragment)
         }
         return super.onOptionsItemSelected(item)
-    }*/
+    }
 
 }
