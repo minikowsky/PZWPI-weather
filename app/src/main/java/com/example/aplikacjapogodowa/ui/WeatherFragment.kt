@@ -150,7 +150,7 @@ class WeatherFragment : Fragment() {
         }
     }
 
-    //permission launcher that asks for location permisson
+    //permission launcher that asks for location permission
     private val requestPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
     ) { isGranted:Boolean ->

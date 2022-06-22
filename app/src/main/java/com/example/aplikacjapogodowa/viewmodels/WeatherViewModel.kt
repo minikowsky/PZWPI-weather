@@ -21,7 +21,7 @@ class WeatherViewModel : ViewModel() {
         viewModelScope.launch {
             val w = WeatherRepository.get(unit, city)
             if(w != null) {
-                _weather.value = w!!
+                _weather.value = w
             }
         }
     }
@@ -34,7 +34,7 @@ class WeatherViewModel : ViewModel() {
         viewModelScope.launch {
             val w = WeatherRepository.getByLocation(unit, latitude.toString(), longitude.toString())
             if(w != null) {
-                _weather.value = w!!
+                _weather.value = w
             }
         }
     }
