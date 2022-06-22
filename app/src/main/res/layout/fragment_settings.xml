@@ -16,34 +16,40 @@
         android:layout_marginBottom="50dp"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:text="@string/unit" />
 
     <RadioGroup
         android:id="@+id/units_radio_group"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp">
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
         <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/units_radio_metric"
-            android:textSize="18sp"
-            android:text="@string/metric"/>
-        <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/metric"
+            android:textAlignment="textStart"
+            android:textSize="18sp" />
+
+        <RadioButton
             android:id="@+id/units_radio_imperial"
-            android:textSize="18sp"
-            android:text="@string/imperial"/>
-        <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/imperial"
+            android:textSize="18sp" />
+
+        <RadioButton
             android:id="@+id/units_radio_standard"
-            android:textSize="18sp"
-            android:text="@string/standard"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/standard"
+            android:textSize="18sp" />
 
     </RadioGroup>
 

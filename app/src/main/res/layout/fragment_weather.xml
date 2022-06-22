@@ -63,8 +63,8 @@
 
         <ImageButton
             android:id="@+id/button_set_city"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
             android:src="@drawable/ic_baseline_check_24"
             android:layout_marginEnd="10dp"
             />
@@ -82,8 +82,9 @@
             android:id="@+id/image_view_icon"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@mipmap/cloud"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            android:src="@mipmap/cloud" />
+
         <TextView
             android:id="@+id/text_view_description"
             android:layout_width="wrap_content"
@@ -96,10 +97,9 @@
             android:id="@+id/text_view_temp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="60sp"
-            android:textStyle="bold"
             android:layout_gravity="center"
-            />
+            android:textSize="60sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/text_view_pressure"
